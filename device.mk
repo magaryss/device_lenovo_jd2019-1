@@ -158,3 +158,7 @@ PRODUCT_PACKAGES += \
 # Recorder
 PRODUCT_PACKAGES += \
     KimciRecorder
+
+# Overlay
+PRODUCT_PACKAGES += \
+    NotchBarKiller
