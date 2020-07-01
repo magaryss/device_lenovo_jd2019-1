@@ -1,0 +1,6 @@
+[
+  {
+    "repository" : "vendor_lenovo",
+    "target_path": "vendor/lenovo"
+  }
+]
