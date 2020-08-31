@@ -30,7 +30,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap 
+    Snap
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/org.codeaurora.snapcam.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/org.codeaurora.snapcam.xml
@@ -44,6 +44,10 @@ PRODUCT_PACKAGES += \
 # Device-specific settings
 PRODUCT_PACKAGES += \
     LenovoParts
+
+# ZUIWalls
+PRODUCT_PACKAGES += \
+    ZUIWalls
 
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
