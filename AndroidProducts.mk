@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/line_jd2019.mk
+    $(LOCAL_DIR)/lineage_jd2019.mk
 
 COMMON_LUNCH_CHOICES := \
-    line_jd2019-user \
-    line_jd2019-userdebug \
-    line_jd2019-eng
+    lineage_jd2019-user \
+    lineage_jd2019-userdebug \
+    lineage_jd2019-eng
