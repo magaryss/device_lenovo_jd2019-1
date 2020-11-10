@@ -2,9 +2,5 @@
   {
     "repository" : "vendor_lenovo_jd2019",
     "target_path": "vendor/lenovo/jd2019"
-  },
-  {
-    "repository" : "merser2005/packages_apps_ZUIWalls",
-    "target_path": "packages/apps/ZUIWalls"
   }
 ]
