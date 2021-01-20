@@ -17,14 +17,13 @@
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Inherit some common CesiumOS stuff.
-$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
-DERP_BUILD_ZIP_TYPE := VANILLA
 IS_PHONE := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := derp_jd2019
+PRODUCT_NAME := lineage_jd2019
 PRODUCT_BRAND := lenovo
 PRODUCT_DEVICE := jd2019
 PRODUCT_MANUFACTURER := lenovo
