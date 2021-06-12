@@ -57,8 +57,15 @@ void property_override_dual(char const system_prop[], char const vendor_prop[],
 
 void vendor_load_properties()
 {
-    // fingerprint
-    property_override("ro.build.description", "redfin-user 11 RQ1A.210105.003 7005429 release-keys");
-    property_override("ro.system.build.fingerprint", "google/redfin/redfin:11/RQ1A.210105.003/7005429:user/release-keys");
-    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/redfin/redfin:11/RQ1A.210105.003/7005429:user/release-keys");
+    property_override("ro.build.description", "redfin-user 11 RQ3A.210605.005 7349499 release-keys");
+    property_override("ro.vendor.build.description", "redfin-user 11 RQ3A.210605.005 7349499 release-keys");
+    property_override("ro.system.build.description", "redfin-user 11 RQ3A.210605.005 7349499 release-keys");
+    property_override("ro.bootimage.build.description", "redfin-user 11 RQ3A.210605.005 7349499 release-keys");
+    property_override("ro.product.build.description", "redfin-user 11 RQ3A.210605.005 7349499 release-keys");
+    property_override("ro.build.fingerprint", "google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys");
+    property_override("ro.vendor.build.fingerprint", "google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys");
+    property_override("ro.bootimage.build.fingerprint", "google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys");
+    property_override("ro.system.build.fingerprint", "google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys");
+    property_override("ro.product.build.fingerprint", "google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys");
+    property_override("ro.oem_unlock_supported", "0");
 }
